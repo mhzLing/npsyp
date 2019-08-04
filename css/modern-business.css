@@ -1,0 +1,137 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic");
+/*
+@media (max-width: 500px) {
+  body {
+    padding-top: 90px;
+  }
+}
+*/
+html *
+{
+   font-family: 'Open Sans' !important;
+}
+/*
+body {
+  padding-top: 54px;
+} */
+
+.navbar {
+    position:relative;
+}
+
+.navbar-brand {
+	font-size: 1em;
+}
+
+.carousel {
+    position:relative;
+    top:0;    
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	height: 15%;
+	top: 33%;
+	width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #5cb85c;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #5cb85c;
+}
+
+.carousel-item {
+  min-height: 100px; 
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-button {
+	position: absolute;
+	bottom: 0px;
+	left: 2vw;
+}
+
+/* makes images and video responsive in carousel */
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .carousel-item > img,
+.carousel-inner > .carousel-item > video,
+.carousel-inner > .carousel-item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+/* color scheme */
+
+.text-primary {
+	color: #325c6a !important;
+}
+
+.text-secondary {
+	color: #4BC392 !important;
+}
+
+.bg-primary {
+	background-color: #325c6a !important;
+}
+
+.bg-secondary {
+	background-color: #4BC392 !important;
+}
+
+.btn-success {
+	background-color: #4BC392 !important;
+	border-color: #4BC392 !important;
+}
+
+.btn-success:hover {
+	background-color: #325c6a !important;
+	border-color: #325c6a !important;
+	text-decoration: none !important
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.icon-link > a, .icon-link > a, .icon-link > a:active {
+	color: #4BC392 !important;
+}
+.icon-link > a:hover {
+	color: #325c6a !important;
+}
+
+
